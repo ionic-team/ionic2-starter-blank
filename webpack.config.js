@@ -3,8 +3,6 @@ module.exports = {
     'es6-shim',
     'zone.js',
     'reflect-metadata',
-    'angular2/angular2',
-    'ionic/ionic',
     'web-animations.min',
     './www/app/app.js' // your app entry
   ],
