@@ -1,16 +1,15 @@
 import {App, Platform, StatusBar} from 'ionic/ionic';
-import {HomeCmp} from './home/home';
+import {HomePage} from './home/home';
 
 
 @App({
   template: '<ion-nav [root]="root"></ion-nav>',
 })
-
-export class AppCmp {
+export class MyApp {
   constructor(platform: Platform) {
     this.platform = platform;
     this.initializeApp();
-    this.root = HomeCmp;
+    this.root = HomePage;
   }
 
   initializeApp() {
