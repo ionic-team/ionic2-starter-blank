@@ -1,6 +1,6 @@
 import {App, Platform, StatusBar} from 'ionic/ionic';
 import {HomePage} from './home/home';
-
+import './app.scss';
 
 @App({
   template: '<ion-nav [root]="root"></ion-nav>',
