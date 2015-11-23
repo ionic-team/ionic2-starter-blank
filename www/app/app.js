@@ -3,7 +3,10 @@ import {HomePage} from './home/home';
 import './app.scss';
 
 @App({
-  template: '<ion-nav [root]="root"></ion-nav>',
+  template: `
+    <ion-nav [root]="root"></ion-nav>
+    <ion-overlay></ion-overlay>
+  `,
 })
 export class MyApp {
   constructor(platform: Platform) {
