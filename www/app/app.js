@@ -1,4 +1,4 @@
-import {App, Platform, StatusBar} from 'ionic/ionic';
+import {App, Platform} from 'ionic/ionic';
 import {HomePage} from './home/home';
 import './app.scss';
 
@@ -18,7 +18,6 @@ export class MyApp {
   initializeApp() {
     this.platform.ready().then(() => {
       console.log('Platform ready');
-      StatusBar.setStyle(StatusBar.DEFAULT);
     });
   }
 }
