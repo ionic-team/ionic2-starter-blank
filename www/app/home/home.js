@@ -5,5 +5,7 @@ import {Page} from 'ionic/ionic'
   templateUrl: 'app/home/home.html',
 })
 export class HomePage {
-  constructor() {}
+  constructor() {
+    
+  }
 }
