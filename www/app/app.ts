@@ -1,6 +1,5 @@
-import {App, Platform} from 'ionic/ionic';
+import {App, Platform} from 'ionic-framework/ionic';
 import {HomePage} from './home/home';
-import './app.scss';
 
 @App({
   template: `
