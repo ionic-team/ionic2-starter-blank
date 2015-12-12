@@ -1,4 +1,4 @@
-import {App, Platform} from 'ionic-framework/ionic';
+import {App, Platform} from 'ionic/ionic';
 import {HomePage} from './home/home';
 
 @App({
