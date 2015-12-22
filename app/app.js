@@ -1,5 +1,5 @@
 import {App, Platform} from 'ionic/ionic';
-import {HomePage} from './home/home';
+import {HomePage} from './pages/home/home';
 
 @App({
   template: `
