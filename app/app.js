@@ -1,4 +1,5 @@
 import {App, Platform} from 'ionic/ionic';
+import {Inject} from 'angular2/core';
 import {HomePage} from './pages/home/home';
 
 
@@ -7,7 +8,7 @@ import {HomePage} from './pages/home/home';
   config: {} // http://ionicframework.com/docs/v2/api/config/Config/
 })
 export class MyApp {
-  constructor(platform: Platform) {
+  constructor(@Inject(Platform) platform) {
     this.rootPage = HomePage;
 
     platform.ready().then(() => {
