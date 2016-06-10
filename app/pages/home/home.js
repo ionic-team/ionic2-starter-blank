@@ -1,5 +1,5 @@
-import {Component} from '@angular/core';
-import {NavController} from 'ionic-angular';
+import { Component } from '@angular/core';
+import { NavController } from 'ionic-angular';
 
 @Component({
   templateUrl: 'build/pages/home/home.html'
@@ -9,8 +9,8 @@ export class HomePage {
     return [[NavController]];
   }
 
-  constructor(_navController) {
-    this._navController = _navController;
+  constructor(navController) {
+    this.navController = navController;
   }
 
   /*
