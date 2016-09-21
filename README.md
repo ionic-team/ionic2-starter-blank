@@ -1,23 +1,26 @@
-# Ionic 2: Alpha
+This is a starter template for [Ionic 2](http://ionicframework.com/docs/v2/) projects.
 
-Ionic 2 is the next generation of [Ionic](http://ionicframework.com/), the open-source mobile app development SDK that makes it easy to build top quality mobile apps with web technologies.
+## How to use this template
 
-Ionic 2 is based on the new [2.x version of AngularJS](https://angular.io/), and comes with many significant performance, usability, and feature improvements.
+*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/driftyco/ionic2-app-base).
 
-See [Adam Bradley](http://twitter.com/adamdbradley)'s [Building apps with Ionic 2](http://adamdbradley.github.io/building-with-ionic2) slides for a quick overview of Ionic 2.
+To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/driftyco/ionic2-app-base).
 
-### Try Ionic 2
+### With the Ionic CLI:
 
-To try Ionic 2 today, visit the [Getting Started](http://ionicframework.com/docs/v2/getting-started/installation/) page. We would love any feedback you have or to know when you encounter issues, by filing an issue report on this repo.
+Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
 
-### Ionic 2 Examples
+```bash
+$ sudo npm install -g ionic cordova
+$ ionic start myBlank blank --v2
+```
 
-There are a few real Ionic 2 apps in the wild. The most complete is the [Ionic Conference App](https://github.com/driftyco/ionic-conference-app), a perfect starting point for building your own conference app.
+Then, to run it, cd into `myBlank` and run:
 
-We are also building out a number of starter projects, including the Ionic 2 starter:
+```bash
+$ ionic platform add ios
+$ ionic run ios
+```
 
-[https://github.com/driftyco/ionic2-starter](https://github.com/driftyco/ionic2-starter)
+Substitute ios for android if not on a Mac.
 
-### Distribution
-
- - [npm: ionic-framework](https://www.npmjs.com/package/ionic-framework)
