@@ -1,8 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule, ErrorHandler } from '@angular/core';
-import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
-import { StatusBar } from '@ionic-native/status-bar';
+import { ErrorHandler, NgModule } from '@angular/core';
+import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePageModule } from '../pages/home/home.module';
@@ -17,9 +17,6 @@ import { HomePageModule } from '../pages/home/home.module';
     HomePageModule
   ],
   bootstrap: [IonicApp],
-  entryComponents: [
-    MyApp
-  ],
   providers: [
     StatusBar,
     SplashScreen,
