@@ -17,6 +17,10 @@ import { HomePage } from '../pages/home/home';
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
+  entryComponents: [
+    MyApp,
+    HomePage
+  ],
   providers: [
     StatusBar,
     SplashScreen,
